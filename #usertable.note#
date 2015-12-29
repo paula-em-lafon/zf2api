@@ -1,0 +1,11 @@
+CREATE TABLE 'users' (
+'id' int(11) unsigned NOT NULL AUTO_INCREMENT,
+'username' varchar(50) DEFAULT NULL,
+'email' varchar(254) DEFAULT NULL,
+'password' binary(60) DEFAULT NULL,
+'avatar_id' int(11) unsigned DEFAULT NULL,
+'name' varchar(25) DEFAULT NULL,
+'surname' varchar(50)DEFAULT NULL,
+'bio' tinytext,
+'location' tinytext,
+'gender'tinyint(1) unsigned DEFAULT NULL,

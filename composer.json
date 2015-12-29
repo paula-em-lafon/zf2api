@@ -9,8 +9,15 @@
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": ">=5.5",
-        "zendframework/zendframework": "~2.5",
+        "zendframework/zendframework": "dev-master",
         "zendframework/zend-developer-tools": "dev-master",
-        "doctrine/doctrine-orm-module": "^0.9.2"
+        "doctrine/doctrine-orm-module": "^0.9.2",
+        "zfcampus/zf-apigility": "dev-master",
+        "zendframework/zendxml": "dev-master",
+        "zfcampus/zf-hal": "~1.0-dev"
+    },
+    "require-dev": {
+        "zfcampus/zf-development-mode": "dev-master",
+        "zfcampus/zf-apigility-admin": "~1.0-dev"
     }
 }
