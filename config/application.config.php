@@ -14,6 +14,7 @@ return array(
       'DoctrineORMModule',
       'ZF\Apigility',
       'ZF\Apigility\Provider',
+      'AssetManager',
       'ZF\ApiProblem',
       'ZF\MvcAuth',
       'ZF\OAuth2',
