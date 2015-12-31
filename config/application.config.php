@@ -1,4 +1,4 @@
-1<?php
+<?php
 /**
  * If you need an environment-specific system or application configuration,
  * there is an example in the documentation
@@ -7,11 +7,23 @@
  */
 return array(
     // This should be an array of module namespaces used in the application.
-    'modules' => array(
-      'ZendDeveloperTools',
+  'modules' => array(
+    'ZendDeveloperTools',
       'Application',
       'DoctrineModule',
       'DoctrineORMModule',
+      'ZF\Apigility',
+      'ZF\Apigility\Provider',
+      'ZF\ApiProblem',
+      'ZF\MvcAuth',
+      'ZF\OAuth2',
+      'ZF\Hal',
+      'ZF\ContentNegotiation',
+      'ZF\ContentValidation',
+      'ZF\Rest',
+      'ZF\Rpc',
+      'ZF\Versioning',
+      'ZF\DevelopmentMode',
   ),
       // These are various options for the listeners attached to the ModuleManager
       'module_listener_options' => array(
